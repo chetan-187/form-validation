@@ -1,0 +1,28 @@
+body{
+
+margin: 0;
+padding: 0;
+background-color: rgb(255, 126, 6);
+background-position: cover;
+font-family: sans-serif;
+}
+
+h1{
+ padding: 0;
+ margin-top: 10%;
+ font-family: cursive;
+ font-size: 150px;
+ color: whitesmoke ;
+ text-align: center;
+}
+
+h2{
+    padding: 0;
+    margin-top: 0px;
+    font-family: cursive;
+    font-size: 100px;
+    color: rgb(243, 247, 7) ;
+    text-align: center;
+   }
+
+

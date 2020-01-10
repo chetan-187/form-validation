@@ -1,0 +1,54 @@
+`<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up</title>	
+	
+</head>
+
+	
+   <body>
+
+	<link rel="stylesheet" type="text/css" href="style_sign_up.css">	
+	<div class="loginbox">
+
+		<img src="avatar.jpg" class="avatar">
+		<h1>SIGN UP</h1>
+	
+			<form action="welcome.html">
+     
+			<p>Name</p>
+			<input type="text" id="name" name="fname" placeholder="Enter your name" value="" pattern="[A-za-z]" title="Name must contain Alphabetic characters only" required><br><br>
+
+			<P>Username</P>
+			<input type="text" id="uname" name="username" placeholder="Enter Username" value="" pattern="[A-Za-z0-9].{8,}" title="Username must contain at least 8 characters and only Alphanumric characters"  required><br><br>
+
+			<p>Email-Id</p>
+			<input type="email" id="email" name="email" placeholder="Enter Email-Id" value="" required><br><br>
+
+
+			<p>Gender</p><br>
+			<input type="radio" name="Gender" value="Male" required>Male
+			<input type="radio" name="Gender" value="Female" required>Female
+			<input type="radio" name="Gender" value="Other" required>Others<br><br>
+
+			<p>Password</p>
+			<input type="password" id="pass" name="password" placeholder="Enter password" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter and at least 8 or more characters" required><br><br>
+
+			<p>Confirm password</p>
+			<input type="password" id="pass2" name="password2" placeholder="Retype the password" value="" required><br><br>
+
+
+			<input type="submit" onclick="return validate();" value="Sign In" text-align="center"><br><br>
+
+			<a href="loginform.html">Already register</a>
+
+			</div>
+
+			</form>
+
+			<script src="sign.js"></script>
+</body>
+
+
+
+</html>
